@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>VisualStudio-Clone</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="text-center text-3xl bg-blue-800 text-white h-[40px]">
+        Educational Purpose
+      </div>
+      <nav class="bg-zinc-800 flex justify-between h-[50px]">
+        <div class="flex items-center">
+          <img class="w-[27px] ml-[150px]" src="./images/logo.ico" alt="logo" />
+          <ul class="text-gray-400 flex px[20px] gap-[30px]">
+            <li class="text-white text-medium ml-[15px]">Visual Studio Code</li>
+            <li>Docs</li>
+            <li>Updates</li>
+            <li>Blog</li>
+            <li>API</li>
+            <li>Extensions</li>
+            <li>FAQ</li>
+            <li>Learn</li>
+          </ul>
+        </div>
+        <div class="flex mr-[15px]">
+            <button 
+            class="inline-flex items-center gap-[5px] text-white bg-zinc-700 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 text-lg"> 
+            <img class="w-[16px]" src="./images/10001images.svg" alt=""> 
+            Search Docs
+            </button>
+            <button 
+            class="inline-flex items-center gap[5px] text-gray-300 bg-blue-700 border-0 py-2 px-6 mr-[150px] focus:outline-none hover:bg-gray-200 text-lg"> 
+            <img class="w-[16px]" src="./images/10003images.svg" alt=""> 
+            Download
+            </button>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!---------------------------------------------------Section-2-------------------------------------------------------->
+    <section class="text-center h-[50px] bg-zinc-900 text-gray-300 flex justify-center items-center">
+            <p class="">
+                <span class="text-blue-500 mr-[5px]">Version 1.73</span>
+                is now available! Read about the new features and fixes from October.
+            </p>
+    </section>
+    <!--------------------------------------------------Section-3 Hero---------------------------------------------------->
+    <section class="bg-zinc-800 text-white flex justify-around py-8">
+        <div class="flex flex-col text-center pt-[8] mt-[30px]">
+            <h1 class="text-5xl font-thin">Code editing. <br>
+                <span class="font-medium">Redefined.</span>
+            </h1>
+            <p class="text-gray-400 text-lg py-4">Free. Built on open source. Runs everywhere.</p>
+            <div class="flex gap-[2px] ml-[50px]">
+                <button 
+                class="items-center gap-[5px] text-white bg-blue-700 border-0 py-1 px-6 focus:outline-none hover:bg-indigo-600 text-lg"> 
+                <span class="font-medium"> Download for windows</span>
+                <br> <span class="font-thin text-sm">Stable build</span>
+                </button>
+                <button 
+                class="inline-flex items-center gap[5px] text-gray-300 bg-blue-700 border-0 py-2 px-3 focus:outline-none hover:bg-gray-200 text-lg"> 
+                <img class="w-[16px]" src="./images/10013images.svg" alt="">
+                <p></p>
+                </button>
+            </div>
+            <p class="bg-zinc-900 py-2 rounded mt-4 mb-2 text-sm font-thin[]"> <span class="text-blue-500">Web</span>, <span class="text-blue-500"> Insiders edition</span class="text-blue-500">, or <span class=" text-blue-500">other platform</span></p>
+            <p class="text-sm font-thin">By using VS Code, you agree to its 
+            <p class="text-blue-500 text-sm font-thin">license and privacy statement.</p>
+        </div>
+        <div>
+            <img class="w-[800px]" src="./images/vscode1.png" alt="">
+        </div>
+    </section>
+<!-------------------------------------------------------Section-4-------------------------------------------------------->
+    <section class="flex py-[30px] items-center justify-around">
+        <!-- Bulb -->
+        <div class="flex flex-col justify-center items-center w-[20%]">
+            <svg xmlns="http://www.w3.org/2000/svg" 
+            fill="none" 
+            viewBox="0 0 24 24" 
+            stroke-width="1.5" 
+            stroke="currentColor" 
+            class="w-12 font-thin text-gray-800">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 18v-5.25m0 0a6.01 6.01 0 001.5-.189m-1.5.189a6.01 6.01 0 01-1.5-.189m3.75 7.478a12.06 12.06 0 01-4.5 0m3.75 2.383a14.406 14.406 0 01-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 10-7.517 0c.85.493 1.509 1.333 1.509 2.316V18" />
+            </svg>
+              
+                <p class="text-xl">Intellisense</p>
+        </div>
+        <!-- Run And Debug -->
+        <div class="flex flex-col justify-center items-center w-[20%]">
+            <svg 
+            xmlns="http://www.w3.org/2000/svg" 
+            fill="none" 
+            viewBox="0 0 24 24" 
+            stroke-width="1.5" 
+            stroke="currentColor" 
+            class="w-12 font-thin text-gray-800">
+            <path
+            stroke-linecap="round" 
+            stroke-linejoin="round" 
+            d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+            <path
+            stroke-linecap="round" 
+            stroke-linejoin="round" 
+            d="M15.91 11.672a.375.375 0 010 .656l-5.603 3.113a.375.375 0 01-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112z" />
+            </svg>
+              
+            <p class="text-xl">Run And Debug</p>
+        </div>
+        <!-- Built-In-Git -->
+        <div class="flex flex-col justify-center items-center w-[20%]">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 font-thin text-gray-800">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M7.217 10.907a2.25 2.25 0 100 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186l9.566-5.314m-9.566 7.5l9.566 5.314m0 0a2.25 2.25 0 103.935 2.186 2.25 2.25 0 00-3.935-2.186zm0-12.814a2.25 2.25 0 103.933-2.185 2.25 2.25 0 00-3.933 2.185z" />
+            </svg>
+              
+                <p class="xl">Built-In-Git</p>
+        </div>
+        <!-- Extensions -->
+        <div class="flex flex-col justify-center items-center w-[20%]">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 font-thin text-gray-800">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 4.875c0-.621.504-1.125 1.125-1.125h4.5c.621 0 1.125.504 1.125 1.125v4.5c0 .621-.504 1.125-1.125 1.125h-4.5A1.125 1.125 0 013.75 9.375v-4.5zM3.75 14.625c0-.621.504-1.125 1.125-1.125h4.5c.621 0 1.125.504 1.125 1.125v4.5c0 .621-.504 1.125-1.125 1.125h-4.5a1.125 1.125 0 01-1.125-1.125v-4.5zM13.5 4.875c0-.621.504-1.125 1.125-1.125h4.5c.621 0 1.125.504 1.125 1.125v4.5c0 .621-.504 1.125-1.125 1.125h-4.5A1.125 1.125 0 0113.5 9.375v-4.5z" />
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 6.75h.75v.75h-.75v-.75zM6.75 16.5h.75v.75h-.75v-.75zM16.5 6.75h.75v.75h-.75v-.75zM13.5 13.5h.75v.75h-.75v-.75zM13.5 19.5h.75v.75h-.75v-.75zM19.5 13.5h.75v.75h-.75v-.75zM19.5 19.5h.75v.75h-.75v-.75zM16.5 16.5h.75v.75h-.75v-.75z" />
+              </svg>
+              
+                <p>Extensions</p>
+        </div>
+    </section>
+    <!-------------------------------------------------Section-5---------------------------------------------------------->
+    <section class="flex justify-center items-center py-16 gap-6 bg-gray-100">
+        <div    >
+            <svg 
+            xmlns="http://www.w3.org/2000/svg" 
+            fill="none" 
+            viewBox="0 0 24 24" 
+            stroke-width="1.5" 
+            stroke="currentColor" 
+            class="w-10 text-gray-800 font-bold">
+            
+            <path stroke-linecap="round" 
+            stroke-linejoin="round" 
+            d="M15.75 19.5L8.25 12l7.5-7.5" />
+            </svg>          
+        </div>
+        <!----------------------------------------------Section-4--------------------------------------------------------->
+        
+           <!-- Cards 1-->
+           <div class="flex">
+            <div>
+                <img class="w-[70px] rounded-full" 
+                src="./images/girl1.jpg" 
+                alt="images">
+            </div>
+            <div class="flex">
+                <div class="flex">
+                    <div class="flex flex-col">      
+                        <h5 class="text-zinc-900 font-bold">Una Kravets @Una <span class="font-thin text-sm -text-gray"></span></h5>
+                        <p class="w-[270px] text-lg">VS @code does so many things right. I’m constantly impressed by the UX, and customizing workspace / user preferences is no exception. 🙌🏼💯 It just keeps getting better ❤️</p>
+                    </div>
+                </div>
+                <i class="fa-brands fa-twitter text-gray-500"></i>
+            </div>
+            <!-- Cards 2 -->
+            <div class="flex">
+                <div>
+                    <img class="w-[70px] rounded-full" 
+                    src="./images/man1.jpg" 
+                    alt="images">
+                </div>
+                <div class="flex flex-col">      
+                    <h5 class="text-zinc-900 font-bold">Una Kravets @Una <span class="font-thin text-sm -text-gray"></span></h5>
+                    <p class="w-[270px] text-lg">VS @code does so many things right. I’m constantly impressed by the UX, and customizing workspace / user preferences is no exception. 🙌🏼💯 It just keeps getting better ❤️</p>
+                </div>
+            </div>
+            <i class="fa-brands fa-twitter text-gray-500"></i>
+            <!-- Cards-3 -->
+            <div class="flex">
+                <div>
+                    <img class="w-[70px] rounded-full" 
+                    src="./images/girl2.jpg" 
+                    alt="images">
+                </div>
+                <div class="flex">
+                    <div class="flex">
+                        <div class="flex flex-col">      
+                            <h5 class="text-zinc-900 font-bold">Una Kravets @Una <span class="font-thin text-sm -text-gray"></span></h5>
+                            <p class="w-[270px] text-lg">VS @code does so many things right. I’m constantly impressed by the UX, and customizing workspace / user preferences is no exception. 🙌🏼💯 It just keeps getting better ❤️</p>
+                        </div>
+                    </div>
+                    <i class="fa-brands fa-twitter text-gray-500"></i>
+                </div> 
+        </div>
+    
+          
+  
+        
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+          </svg>
+      
+    </section>
+            <!-------------------------------------------------------section 5-------------------------------------------->
+    <!-- Hero Section -->
+    <section class="flex justify-around items-center py-26 py-[50px]">
+            <div>
+                <img class="mt-6" src="./images/intellisence.svg" alt="">
+            </div>
+            <div>
+                <h2 class="text-3xl font-thin py-4">Meet IntelliSense.</h2>
+                <p class="text-lg">
+                    Go beyond syntax highlighting and autocomplete with IntelliSense, 
+                    which <br> 
+                    provides smart completions based on variable types, <br> 
+                    function definitions, and <br> 
+                    imported modules.
+                 </p>
+            </div>
+    </section>
+    <!-- Hero Section 2 -->
+    <section class="flex justify-around items-center bg-gray-100 py-12">        
+        <div>
+            <h2 class="text-3xl font-thin py-6">
+                Print statement debugging is a thing of the past.
+            </h2>
+            <p class="text-xl">
+               Debug code right from the editor. Launch or attach to your running 
+               apps and <br> 
+               debug with break points, call stacks, and an interactive console.</p>
+        </div>
+        <div><img src="./images/greenplay.svg" alt="image"></div>
+    </section>
+    <!-- Hero Section 3 -->
+    <section class="flex justify-around items-center py-26 py-[50px]">
+        <div>
+            <img class="mt-6" src="./images/git command.svg" alt="">
+        </div>
+        <div>
+            <h2 class="text-3xl font-thin py-4">Git commands built-in.</h2>
+            <p class="text-lg">
+                Working with Git and other SCM providers has never been easier. Review diffs, <br> stage files, and make commits right from the editor. Push and pull from any <br> hosted SCM service.
+             </p>
+        </div>
+</section>
+    <!-- Hero Section 4 -->
+    <section class="flex justify-around items-center bg-gray-100 py-12">        
+        <div>
+            <h2 class="text-3xl font-thin py-6">
+                Extensible and customizable.
+            </h2>
+            <p class="text-xl">
+                Want even more features? Install extensions to add new languages, themes, <br> debuggers, and to connect to additional services. Extensions run in separate <br> processes, ensuring they won't slow down your editor. <span class="text-blue-500"> Learn more about <br> extensions.</span></p>
+        </div>
+        <div><img class="w-[350px]" src="./images/icomsimg.png" alt="image"></div>
+    </section>
+    <!-- Hero Section 4 -->
+    <section>
+        <section class="flex justify-around items-center py-26 py-[50px]">
+            <div>
+                <img class="mt-6" src="./images/deploy.svg" alt="">
+            </div>
+            <div>
+                <h2 class="text-3xl font-thin py-4">Deploy with confidence and ease</h2>
+                <p class="text-lg">
+                    With <span class="text-blue-500">Microsoft Azure</span> you can deploy and host your React, Angular, Vue, Node, <br> Python (and more!) sites, store and query relational and document based data, <br> and scale with serverless computing, all with ease, <span class="text-blue-500">all from within VS Code.</span>
+                 </p>
+            </div>
+    </section>
+    </section>
+
+    <!-- Content Section -->
+    <section class="h-[400px] flex flex-col justify-center items-center bg-gray-100">
+        <h2 class="font-thin text-3xl py-4">VS Code For</h2>
+        <div class="grid grid-cols-6 gap-12 py-12">
+            <div class="inline-flex">
+                <img src="./images/Javascript.svg" alt="Icons"> 
+                <p class="text-lg">Javascript</p>
+             </div>
+             <div class="inline-flex">
+                 <img src="./images/Python.svg" alt="Icons">
+                 <p class="text-lg">Python</p>
+             </div>
+             <div class="inline-flex">
+                 <img src="./images/Java.svg" alt="Icons">
+                 <p class="text-lg">Java</p>
+             </div>
+             <div class="inline-flex">
+                 <img src="./images/Markdown.svg" alt="Icons">
+                 <p class="text-lg">Markdown</p>
+             </div>
+             <div class="inline-flex">
+                 <img src="./images/Typescript.svg" alt="Icons">
+                 <p class="text-lg">Typescript</p>
+             </div>
+             <div class="inline-flex">
+                 <img src="./images/cplusplus.svg" alt="Icons">
+                 <p class="text-lg">C/C++</p>
+             </div>
+             <div class="inline-flex">
+                 <img src="./images/JSON.svg" alt="Icons">
+                 <p class="text-lg">JSON</p>
+             </div>
+             <div class="inline-flex">
+                 <img src="./images/Powershell.svg" alt="Icons">
+                 <p class="text-lg">Powershell</p>
+             </div>
+             <div class="inline-flex">
+                 <img src="./images/HTMLCSS.svg" alt="Icons">
+                 <p class="text-lg">HTML/CSS</p>
+             </div>
+             <div class="inline-flex">
+                 <img src="./images/chash.svg" alt="Icons">
+                 <p class="text-lg">C#</p>
+             </div>
+             <div class="inline-flex">
+                 <img src="./images/elephant.svg" alt="Icons">
+                 <p class="text-lg">PHP</p>
+             </div>
+             <div class="inline-flex">
+                 <img src="./images/exclamation mark.svg" alt="Icons">
+                 <p class="text-lg">YAML</p>
+             </div>
+        </div>
+        <p class="text-lg text-blue-500 mb-6">and many more languages on the Marketplace...</p>
+        <button class="bg-blue-800 text-white text-xl font-medium py-4 px-6 mt-4 mb-4">
+            Get Started Now
+        </button>
+    </section>
+    <!-- Download Section -->
+</body>
+</html>
