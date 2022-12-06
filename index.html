@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>VisualStudio-Clone</title>
@@ -331,7 +332,8 @@
         </button>
     </section>
     <!-- Download Section -->
-    <section class="flex flex-row">
+    <section class="flex flex-row justify-around py-10">
+        <!-- Download column 1 -->
         <div class="flex flex-col justify-center items-center gap-4">
             <img class="w-[100px]" src="./images/windows.png" alt="">
             <button class="bg-blue-700 py-2 px-12">
@@ -340,7 +342,7 @@
                     <img class="w-[16px]" src="./images/10003images.svg" alt="">
                     <span class="text-white text-lg font-medium">Windows</span>
                 </span>
-                <span class="text-white">Windows 8,10,11</span>
+                <span class="text-white text-sm font-thin">Windows 8,10,11</span>
             </span>
             </button>
             <div class="flex flex-row mt-4">
@@ -361,10 +363,123 @@
                     <p class="bg-blue-700">xAm64</p>
                 </div>
             </div>
-         
         </div>
-        <div></div>
-        <div></div>
+        <!-- Download Column 2 -->
+        <div class="flex flex-col justify-center items-center">
+            <img class="w-[90px]" src="./images/linex.png" alt="icon">
+            <div class="flex flex-row gap-2 justify-center items-center mt-4">
+                <button class="flex flex-col bg-blue-700 py-2 px-10 items-center justify-center"
+                >
+                    <span class="flex flex-row gap-2 text-white">
+                        <img class="w-[16px]" src="./images/10003images.svg" alt="">
+                        <span class="text-lg font-medium">.deb</span>
+                    </span>
+                    <span class="text-sm font-thin text-white">Debian, Ubuntu</span>
+                </button>
+                <button class="flex flex-col bg-blue-700 py-2 px-10 items-center justify-center"
+                >
+                    <span class="flex flex-row gap-2 text-white">
+                        <img class="w-[16px]" src="./images/10003images.svg" alt="">
+                        <span class="text-lg font-medium">.deb</span>
+                    </span>
+                    <span class="text-sm font-thin text-white">Red Hat, Fedora, SUSE</span>
+                </button>
+            </div>
+            <div class="flex flex-row mt-6">
+                <div class="flex flex-col mt-[2]">
+                    <h4>.deb</h4>
+                    <h4>.rpm</h4>
+                    <h4>.tar.gz</h4>
+                    <h4>snap</h4>
+                </div>
+                <div class="grid grid-cols-3 gap-2 text-center text-white text-sm font-thin">
+                    <div class="bg-blue-700">x64</div> 
+                    <div class="bg-blue-700">Arm32</div> 
+                    <div class="bg-blue-700">Arm64</div> 
+                    <div class="bg-blue-700">x64</div> 
+                    <div class="bg-blue-700">Arm32</div> 
+                    <div class="bg-blue-700">Arm64</div> 
+                    <div class="bg-blue-700">x64</div> 
+                    <div class="bg-blue-700">Arm32</div> 
+                    <div class="bg-blue-700">Arm64</div> 
+                    <div class="bg-blue-700">Snap Store</div> 
+                </div>
+            </div>
+        </div>
+       
+            <!-- Download Column 3 -->
+        <div class="flex flex-col items-center justify-start">
+        <i class="fa-brands fa-apple text-[110px]"></i>
+        <button class="bg-blue-700 py-2 px-16">
+            <span class="flex flex-col items-center justify-center gap">
+                <span class="inline-flex gap-2">
+                    <img class="w-[16px]" src="./images/10003images.svg" alt="">
+                    <span class="text-white text-lg font-medium">Mac</span>
+                </span>
+                <span class="text-white font-thin text-sm">Macos 10.11</span>
+            </span>
+            </button>
+            <div class="flex flex-row gap-2 text-white mt-2">
+                <p class="text-black">.zip</p>
+                <p class="font-thin text-sm bg-blue-700 rounded-[2px]">Universal</p>
+                <p class="font-thin text-sm bg-blue-700 rounded-[2px]">Intel Chip</p>
+                <p class="font-thin text-sm bg-blue-700 rounded-[2px]">Apple Silicon</p>
+            </div>
+        </div>
+    </section>        
+    <!-- License & Prices -->
+    <section class="bg-gray-100 py-10">
+        <div class="flex flex-row justify-around py-10 leading loose">
+            <div>
+                <h3 class="text-xl text-gray-800 font-medium">Want new features sooner?</h3>
+                <p class="text-lg">Get the <span class="text-blue-500 hover:underline decoration-solid cursor-pointer">Insiders build</span> instead.</p> 
+            </div>
+            <div class="text-center">
+                <h3 class="text-xl text-gray-800 font-medium">Use <span class="text-blue-500 hover:underline decoration-solid cursor-pointer">vscode.dev</span> for quick edits <br> online!</h3>
+                <p class="text-lg">GitHub, Azure Repos, and local files.</p>
+            </div>
+        </div>
+        <div class="text-center text-gray-700">
+            <h5 class="text-lg leading loose">LICENSE AND PRIVACY TERMS</h5>
+            <p>By downloading and using Visual Studio Code, you agree to the 
+               <span 
+               class="text-blue-500 cursor-pointer hover:underline"> license terms </span class="text-blue-500 cursor-pointer hover:underline"> and <span>privacy statement</span class="text-blue-500 cursor-pointer hover:underline">VS Code <br> automatically 
+               sends telemetry data and crash dumps to help us improve the product. 
+               If you would prefer not <br> to have this data sent please go see
+               <span class="text-blue-500 cursor-pointer hover:underline">How to Disable Crash Reporting</span>
+               to learn how to disable it.</p>
+        </div>
     </section>
+   
+    
+    <!-- footer -->
+    <footer class="flex flex-row justify-around items-center bg-gray-900 text-white py-12">
+    <!-- footer left -->
+        <div class="flex flex-row gap-4">
+            <h5 class="text-sm">Hello from Seattle.</h5>
+            <h5 class="text-sm">Follow @code</h5>
+            <div class="inline-flex gap-2">
+                <div class="inline-flex items-center bg-white text-black rounded gap-2 px-2 font-medium cursor-pointer hover:bg-gray-300"
+                >
+                    <i class="fa-brands fa-github"></i>
+                    <h6><S></S>tar</h6>
+                </div>
+
+                <h6 class="bg-white text-black cursor pointer hover:bg-gray-300 rounded px-2 font-medium text-sm">139,819</h6>
+            </div>
+        </div>
+     
+    <!-- footer right -->
+        <div class="flex flex-row gap-4">
+        <h6 class="text-sm">Support</h6>
+        <h6 class="text-sm">Privacy</h6>
+        <h6 class="text-sm">Terms Of Use</h6>
+        <h6 class="text-sm">License</h6>
+        <div class="flex flex-col">
+            <img class="w-[100px]" src="./images/microsoft.png" alt="">
+            <p class="text-sm">@2022 Microsoft</p>
+        </div>
+        </div>
+    </footer>
 </body>
 </html>
